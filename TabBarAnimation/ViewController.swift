@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+                UITabBar.appearance().selectedImageTintColor = UIColor.yellowColor()
+//        UITabBar.appearance().barTintColor = UIColor.greenColor()
+//        UITabBar.appearance().tintColor = UIColor.yellowColor()
+
     }
 
     override func didReceiveMemoryWarning() {
